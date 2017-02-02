@@ -1,4 +1,4 @@
-require "extractimag/version"
+require 'extractimag/version'
 
 module Extractimag
   # Your code goes here...

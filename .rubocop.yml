@@ -4,7 +4,7 @@ AllCops:
   Include:
     - '**/Gemfile'
     - '**/Rakefile'
-  Exclude
+  Exclude:
     - '*.gemspec'
 
 Metrics/LineLength:
