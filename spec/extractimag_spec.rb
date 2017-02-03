@@ -15,8 +15,8 @@ describe Extractimag do
   end
 
   it 'extracts images from String data' do
-    expect(Extractimag.send(:extract_images, ONE, 'http://foo.org')).to eq ['http://foo.org/1.png']
-    expect(Extractimag.send(:extract_images, NONE, 'http://foo.org')).to eq []
+    expect(Extractimag.extract_images(ONE, 'http://foo.org')).to eq ['http://foo.org/1.png']
+    expect(Extractimag.extract_images(NONE, 'http://foo.org')).to eq []
   end
 
   it 'throws exception with bad urls' do
