@@ -10,3 +10,7 @@ cache:
   bundler: true
 
 before_install: gem install bundler -v 1.13.1
+
+addons:
+    code_climate:
+        repo_token: d14257297a65e78aed2750c1d57c2d6b4eabc38fc14660996c10596e294e5934
